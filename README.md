@@ -1,16 +1,29 @@
-## Hi there 👋
+# Boluendowed — Cloud Support / Cloud Operations (AWS)
 
-<!--
-**Boluendowed/Boluendowed** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build and operate AWS labs that mirror real support work: monitoring & alerting, incident triage, Linux troubleshooting, networking, and automation.
 
-Here are some ideas to get you started:
+## What I do (support-style)
+- **Monitoring/Alerting:** CloudWatch metrics/logs, alarms, SNS notifications
+- **Troubleshooting:** Linux + networking (SSH, systemd, logs, ports, DNS)
+- **Operations:** Runbooks, incident reports (RCA), preventative actions
+- **Automation:** Bash/Python scripts to collect evidence fast
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Featured projects
+- **cloud-support-labs (hub):** runbooks, incident reports, diagrams, scripts  
+- **aws-monitoring-alerting:** build alarms + test alerts + response runbook  
+- **aws-vpc-connectivity-lab:** public/private subnets + NAT + common fixes  
+- **incident-simulations:** intentional outages + triage + RCA  
+- **iam-least-privilege:** practical support-role IAM policies  
+- **ops-automation-scripts:** evidence-collection scripts for faster triage
+
+## Proof style
+Every repo includes:
+- Setup steps
+- “How to test” (what failure looks like)
+- Troubleshooting section
+- Screenshots/outputs
+- A short “what I learned”
+
+## Contact
+- LinkedIn: (add link)
+- Email: (optional)
