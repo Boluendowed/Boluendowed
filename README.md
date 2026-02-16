@@ -1,29 +1,63 @@
-# Boluendowed — Cloud Support / Cloud Operations (AWS)
+# Boluendowed
 
-I build and operate AWS labs that mirror real support work: monitoring & alerting, incident triage, Linux troubleshooting, networking, and automation.
+Cloud Support / Cloud Operations focused on troubleshooting, monitoring, and secure AWS operations.
 
-## What I do (support-style)
-- **Monitoring/Alerting:** CloudWatch metrics/logs, alarms, SNS notifications
-- **Troubleshooting:** Linux + networking (SSH, systemd, logs, ports, DNS)
-- **Operations:** Runbooks, incident reports (RCA), preventative actions
-- **Automation:** Bash/Python scripts to collect evidence fast
+I enjoy breaking cloud systems on purpose, fixing them methodically, and documenting the process through runbooks, incident reports, and automation.
 
-## Featured projects
-- **cloud-support-labs (hub):** runbooks, incident reports, diagrams, scripts  
-- **aws-monitoring-alerting:** build alarms + test alerts + response runbook  
-- **aws-vpc-connectivity-lab:** public/private subnets + NAT + common fixes  
-- **incident-simulations:** intentional outages + triage + RCA  
-- **iam-least-privilege:** practical support-role IAM policies  
-- **ops-automation-scripts:** evidence-collection scripts for faster triage
+---
 
-## Proof style
-Every repo includes:
-- Setup steps
-- “How to test” (what failure looks like)
-- Troubleshooting section
-- Screenshots/outputs
-- A short “what I learned”
+## What I focus on
+- AWS infrastructure troubleshooting (EC2, ALB, ASG, VPC)
+- Monitoring, alerts, and log analysis (CloudWatch)
+- IAM least-privilege access and AccessDenied debugging
+- Writing clear runbooks, RCAs, and checklists
+- Small automation scripts to speed up triage
+
+---
+
+## Featured Projects
+
+### 🧠 Cloud Support Labs (Hub)
+Central hub for my Cloud Support thinking: runbooks, RCAs, checklists, and links to hands-on labs.  
+👉 https://github.com/Boluendowed/cloud-support-labs
+
+### ⚙️ ALB + Auto Scaling Operations
+Troubleshot unhealthy targets, security group failures, and ASG self-healing behavior.  
+👉 https://github.com/Boluendowed/aws-elb-autoscaling-ops
+
+### 🌐 VPC Connectivity & Troubleshooting
+Diagnosed routing, NAT, IGW, and security group issues across public and private subnets.  
+👉 https://github.com/Boluendowed/aws-vpc-connectivity-lab
+
+### 📊 Monitoring & Alerting
+Built CloudWatch metrics, alarms, and SNS notifications with documented troubleshooting steps.  
+👉 https://github.com/Boluendowed/aws-monitoring-alerting
+
+### 🔐 IAM Least Privilege
+Designed Support-View and Support-Operator roles and fixed real AccessDenied errors using least privilege.  
+👉 https://github.com/Boluendowed/iam-least-privilege
+
+### 🤖 Automation Scripts
+Lightweight scripts for collecting EC2 diagnostics during incidents.  
+👉 https://github.com/Boluendowed/automation-scripts
+
+---
+
+## How I troubleshoot
+1. Identify the failure domain (compute, network, access, monitoring)
+2. Check the most common causes first
+3. Validate assumptions with logs, metrics, and configuration
+4. Fix with the smallest possible change
+5. Document the lesson learned
+
+---
+
+## Currently learning
+- Deeper Linux troubleshooting
+- AWS Systems Manager (SSM) for agent-based operations
+- Improving incident documentation and automation
+
+---
 
 ## Contact
-- LinkedIn: (add link)
-- Email: (optional)
+- LinkedIn: www.linkedin.com/in/boluendowed
